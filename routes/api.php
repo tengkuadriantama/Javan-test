@@ -20,4 +20,3 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::resource('keturunan', KeturunanControllerAPI::class);
-Route::post('/keturunan/update', [KeturunanControllerAPI::class, 'updatee']);
